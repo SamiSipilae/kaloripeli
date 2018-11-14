@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Kalorivisa</title>
+	<meta content="Kalorivisa" name="description">
+	<meta content="Sami Sipilä" name="author">
+	<meta content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" name="viewport">
+	<link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body onload="init()">
+	<script src="peli.js">
+	</script>
+
+	<div class="header">
+		<img alt="Haaga-Helia logo" class="logo" src="kuvat/hh_tunnus_rgb_300dpi.png">
+
+		<h1 class="title">KaloriVisa</h1>
+
+
+		<div id="numero">
+			1/10
+		</div>
+	</div>
+
+
+	<div id="container_div">
+		<canvas id="vasen_canvas" onclick="valitse_vasen()">
+		</canvas>
+
+
+		<canvas id="oikea_canvas" onclick="valitse_oikea()">
+		</canvas>
+	</div>
+
+
+	<div id="ala">
+		<a class="button" href="" id="seuraava_nappula" onclick="seuraava()" style="display:none;">Seuraava</a><a class="button" href="" id="tulokset_nappula" onclick="tulokset()" style="display:none;">Tulokset</a>
+	</div>
+
+
+	<div id="ala2">
+		Valitse vähemmän kaloreita sisältävä ruoka.
+	</div>
+</body>
+</html>

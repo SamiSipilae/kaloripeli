@@ -1,0 +1,214 @@
+html,body {
+	height: 99%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+html {
+	font-size: 30px;
+	font-family: 'Fredoka One',cursive;
+}
+
+body {
+	background: #EFEFBB;
+/* fallback for old browsers */
+	background: -webkit-linear-gradient(to left,#EFEFBB,#D4D3DD);
+/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left,#EFEFBB,#D4D3DD);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	height: 75%;
+	border-style: dotted;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.container > div {
+	margin: 10px;
+}
+
+.first {
+	width: 15%;
+	height: 70%;
+	float: left;
+}
+
+.third {
+	width: 15%;
+	height: 70%;
+	float: right;
+}
+
+.second {
+	width: 60%;
+	height: 70%;
+}
+
+.circular--landscape {
+	display: inline-block;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px #888;
+}
+
+.circular--landscape img {
+	width: auto;
+	height: 100%;
+	margin-left: -50px;
+}
+
+.circular--portrait {
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px #888;
+}
+
+.circular--portrait img {
+	width: 100%;
+	height: auto;
+}
+
+.logo {
+	max-height: 100%;
+	float: left;
+	padding-right: 10%;
+}
+
+.title {
+	color: rgba(255,90,9,1);
+	text-shadow: rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px;
+	padding-top: 10px;
+	margin-top: 0;
+}
+
+.aloita {
+	max-width: 100%;
+}
+
+.header {
+	height: 20%;
+	width: 90%;
+	overflow: hidden;
+	font-size: 120%;
+}
+
+canvas {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	margin: 15px;
+}
+
+#container_div {
+	height: 70%;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	border-top: dotted;
+	border-bottom: dotted;
+}
+
+#ala {
+	justify-content: center;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#ala2 {
+	justify-content: center;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#numero {
+	float: right;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	top: 0;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.button {
+	color: #fff;
+	font-size: 26px;
+	padding: 14px;
+	text-shadow: 0 -1px 0 rgba(30,30,30,0.8);
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+	background: #ff5a09;
+	background: -moz-linear-gradient(90deg,#ff5a09 30%,#f3843e 70%);
+	background: -webkit-linear-gradient(90deg,#ff5a09 30%,#f3843e 70%);
+	background: -o-linear-gradient(90deg,#ff5a09 30%,#f3843e 70%);
+	background: -ms-linear-gradient(90deg,#ff5a09 30%,#f3843e 70%);
+	background: linear-gradient(0deg,#ff5a09 30%,#f3843e 70%);
+	-webkit-box-shadow: 0 2px 1px rgba(50,50,50,0.75);
+	-moz-box-shadow: 0 2px 1px rgba(50,50,50,0.75);
+	box-shadow: 0 2px 1px rgba(50,50,50,0.75);
+}
+
+.pieni {
+	margin-top: 5%;
+	font-size: 70%;
+	margin-bottom: 5%;
+}
+
+#teksti {
+	margin-bottom: 30px;
+	font-size: 100%;
+}
+
+#teksti2 {
+	margin-bottom: 30px;
+	font-size: 60%;
+	text-align: left;
+}
+
+#onnittelu {
+	margin-bottom: 30px;
+	font-size: 60%;
+}
+
+.loppu {
+	width: 65%;
+	height: 80%;
+	text-align: center;
+}
+
+
+@media all and (min-height: 50px)   {  body  { font-size:0.1em;  } }
+@media all and (min-height: 100px)  {  body  { font-size:0.2em;  } }
+@media all and (min-height: 200px)  {  body  { font-size:0.4em;  } }
+@media all and (min-height: 300px)  {  body  { font-size:0.6em;  } }
+@media all and (min-height: 400px)  {  body  { font-size:0.8em;  } }
+@media all and (min-height: 500px)  {  body  { font-size:1.0em;  } }
+@media all and (min-height: 600px)  {  body  { font-size:1.2em;  } }
+@media all and (min-height: 700px)  {  body  { font-size:1.4em;  } }
+@media all and (min-height: 800px)  {  body  { font-size:1.6em;  } }
+@media all and (min-height: 900px)  {  body  { font-size:1.8em;  } }
+@media all and (min-height: 1000px) {  body  { font-size:2.0em;  } }
+@media all and (min-height: 1100px) {  body  { font-size:2.2em;  } }
+@media all and (min-height: 1200px) {  body  { font-size:2.4em;  } }
+@media all and (min-height: 1300px) {  body  { font-size:2.6em;  } }
+@media all and (min-height: 1400px) {  body  { font-size:2.8em;  } }
+@media all and (min-height: 1500px) {  body  { font-size:3.0em;  } }
+@media all and (min-height: 1500px) {  body  { font-size:3.2em;  } }
+@media all and (min-height: 1600px) {  body  { font-size:3.4em;  } }
+@media all and (min-height: 1700px) {  body  { font-size:3.6em;  } }
